@@ -1,0 +1,19 @@
+
+.Header {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left-params {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+}
