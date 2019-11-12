@@ -7,9 +7,9 @@ function Header() {
         <div className="Header">
             <div className="Header__top">
                 <ul className="Header__left-params">
-                   <li>usd</li>
-                   <li>English</li>
-                   <li>Call us: (012) 3456 7890</li>
+                   <li className="Header__left-params-item">usd</li>
+                   <li className="Header__left-params-item">English</li>
+                   <li className="Header__left-params-item Header__left-params-item_noborder">Call us: (012) 3456 7890</li>
                 </ul>
                 <ul className="Header__nav">
                     <a href="#" className="Header__nav-item"><li>My Account</li></a>

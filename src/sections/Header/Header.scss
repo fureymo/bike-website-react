@@ -1,3 +1,5 @@
+$LatoLightFont: Lato Light, Arial, Helvetica, sans-serif;
+
 
 .Header {
   padding: 20px 180px 60px 180px;
@@ -14,6 +16,19 @@
     list-style: none;
   }
 
+  &__left-params-item {
+    padding: 0 16px;
+    border-right: 1px solid #e0e0e0;
+    font-family: $LatoLightFont;
+    font-size: 14px;
+    line-height: 21px;
+    color: #212121;
+
+    &_noborder {
+      border-right: none;
+    }
+  }
+
   &__nav {
     padding: 0;
     display: flex;
@@ -24,7 +39,11 @@
   &__nav-item {
     padding: 0 18px;
     text-decoration: none;
-    border-right: 1px solid #e0e0e0 ;
+    border-right: 1px solid #e0e0e0;
+    font-family: $LatoLightFont;
+    font-size: 14px;
+    line-height: 21px;
+    color: #212121;
 
     &_noborder {
       border: none;
