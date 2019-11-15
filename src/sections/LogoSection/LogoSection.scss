@@ -1,0 +1,14 @@
+
+.Header-section {
+  padding: 0 180px;
+}
+
+.LogoSection {
+  display: flex;
+  justify-content: space-between;
+
+
+  &__right-params {
+    display: flex;
+  }
+}
