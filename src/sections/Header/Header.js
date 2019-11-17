@@ -7,7 +7,13 @@ function Header() {
         <div className="Header">
             <div className="Header__top">
                 <ul className="Header__left-params">
-                   <li className="Header__left-params-item">usd</li>
+                   <li className="Header__left-params-item">
+                       <select>
+                           <option>USD</option>
+                           <option>EUR</option>
+                           <option>RUB</option>
+                       </select>
+                   </li>
                    <li className="Header__left-params-item">English</li>
                    <li className="Header__left-params-item Header__left-params-item_noborder">Call us: (012) 3456 7890</li>
                 </ul>
