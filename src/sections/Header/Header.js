@@ -7,14 +7,20 @@ function Header() {
         <div className="Header">
             <div className="Header__top">
                 <ul className="Header__left-params">
-                   <li className="Header__left-params-item">
-                       <select>
+                   <li className="Header__left-params-item Header__left-params-item_value">
+                       <select className="Header__select-style">
                            <option>USD</option>
                            <option>EUR</option>
                            <option>RUB</option>
                        </select>
                    </li>
-                   <li className="Header__left-params-item">English</li>
+                   <li className="Header__left-params-item">
+                       <select className="Header__select-style">
+                           <option>English</option>
+                           <option>Russian</option>
+                           <option>Spanish</option>
+                       </select>
+                   </li>
                    <li className="Header__left-params-item Header__left-params-item_noborder">Call us: (012) 3456 7890</li>
                 </ul>
                 <ul className="Header__nav">

@@ -7,8 +7,31 @@
   display: flex;
   justify-content: space-between;
 
+  &__logo {
+    font-family: Lato Black, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 21px;
+    color: #212121;
+    text-transform: uppercase;
+  }
+
 
   &__right-params {
     display: flex;
+  }
+
+  &__category{
+    margin-right: 11px;
+    font-family: Lato Light, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #212121;
+  }
+
+  &__category-item {
+    font-family: Lato Light, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #212121;
   }
 }

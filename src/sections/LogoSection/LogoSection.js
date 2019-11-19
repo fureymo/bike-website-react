@@ -10,8 +10,15 @@ function LogoSection() {
                     bike sport
                 </div>
                 <div className="LogoSection__right-params">
-                    <div>All categirues</div>
-                    <div>search for product</div>
+                    <select className="LogoSection__category">
+                        <option className="LogoSection__category-item">All Category</option>
+                        <option className="LogoSection__category-item">Category 1</option>
+                        <option className="LogoSection__category-item">Categfory 2</option>
+                    </select>
+                   <form>
+                       <input type="search" placeholder="Search for product" name="search">
+                       </input>
+                   </form>
                 </div>
             </div>
 
