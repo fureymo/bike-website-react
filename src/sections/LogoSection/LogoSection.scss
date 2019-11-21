@@ -1,4 +1,6 @@
 
+@import '../../variables.scss';
+
 .Header-section {
   padding: 0 180px;
 }
@@ -8,11 +10,12 @@
   justify-content: space-between;
 
   &__logo {
-    font-family: Lato Black, Arial, Helvetica, sans-serif;
+    font-family: $LatoBlackFont;
     font-size: 40px;
     line-height: 21px;
     color: #212121;
     text-transform: uppercase;
+    letter-spacing: 3.2px;
   }
 
 
@@ -22,14 +25,14 @@
 
   &__category{
     margin-right: 11px;
-    font-family: Lato Light, Arial, Helvetica, sans-serif;
+    font-family: $LatoLightFont;
     font-size: 14px;
     line-height: 21px;
     color: #212121;
   }
 
   &__category-item {
-    font-family: Lato Light, Arial, Helvetica, sans-serif;
+    font-family: $LatoLightFont;
     font-size: 14px;
     line-height: 21px;
     color: #212121;
