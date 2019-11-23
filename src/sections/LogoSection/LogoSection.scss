@@ -2,12 +2,14 @@
 @import '../../variables.scss';
 
 .Header-section {
-  padding: 0 180px;
+
 }
 
 .LogoSection {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 57px ;
+  padding: 0 180px;
 
   &__logo {
     font-family: $LatoBlackFont;
@@ -17,7 +19,6 @@
     text-transform: uppercase;
     letter-spacing: 3.2px;
   }
-
 
   &__right-params {
     display: flex;
@@ -37,4 +38,109 @@
     line-height: 21px;
     color: #212121;
   }
+
+  &__search {
+    font-family: $LatoLightFont;
+    font-size: 14px;
+    line-height: 21px;
+    color: #bdbdbd;
+  }
+}
+
+.Page-nav-basket-container {
+  background-color: #212121;
+}
+
+.Page-nav-basket {
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 180px;
+}
+
+.Page-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+
+  &__nav-item {
+    text-decoration: none;
+    margin-right: 45px;
+    text-transform: uppercase;
+    font-family: $LatoLightFont;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+
+    &_onsale {
+      position: relative;
+
+      &:before {
+        position: absolute;
+        content: "on sale!";
+        font-family: $LatoRegularFont;
+        font-size: 11px;
+        line-height: 21px;
+        color: #ffffff;
+        background-color: #fd4339;
+        padding: 1px 8px;
+        top: -32px;
+        left: 12px;
+        width: 49px;
+      }
+
+      &:after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 6px solid #fd4339;
+        top: -11px;
+        left: 17px;
+      }
+    }
+
+    &_bestoff {
+      position: relative;
+
+      &:before  {
+
+      position: absolute;
+      content: "best off!";
+      font-family: $LatoRegularFont;
+      font-size: 11px;
+      line-height: 21px;
+      color: #ffffff;
+      background-color: #00bcd4;
+      padding: 1px 8px;
+      top: -32px;
+      left: 6px;
+      width: 53px;
+    }
+
+    &:after {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 6px solid #00bcd4;
+      top: -11px;
+      left: 11px;
+    }
+    }
+
+
+  }
+}
+
+.Basket-section {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

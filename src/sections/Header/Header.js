@@ -4,7 +4,7 @@ import './Header.scss';
 
 function Header() {
     return (
-        <div className="Header">
+        <section className="Header">
             <div className="Header__top">
                 <ul className="Header__left-params">
                    <li className="Header__left-params-item Header__left-params-item_value">
@@ -13,6 +13,7 @@ function Header() {
                            <option>EUR</option>
                            <option>RUB</option>
                        </select>
+                       <div><i className="fas fa-angle-down"></i><i className="fab fa-stumbleupon"></i></div>
                    </li>
                    <li className="Header__left-params-item">
                        <select className="Header__select-style">
@@ -20,6 +21,7 @@ function Header() {
                            <option>Russian</option>
                            <option>Spanish</option>
                        </select>
+                       <div className="Header__icon-language"><i className="fas fa-angle-down"></i></div>
                    </li>
                    <li className="Header__left-params-item Header__left-params-item_noborder">Call us: (012) 3456 7890</li>
                 </ul>
@@ -31,7 +33,7 @@ function Header() {
                     <a href="#" className="Header__nav-item Header__nav-item_noborder"><li>Login</li></a>
                 </ul>
             </div>
-        </div>
+        </section>
     );
 }
 
