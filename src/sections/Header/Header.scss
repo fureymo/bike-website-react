@@ -2,7 +2,10 @@
 @import '../../variables.scss';
 
 .Header {
-  padding: 20px 180px 60px 180px;
+  @include section-horizontal-padding;
+
+  padding-top: 20px;
+  padding-bottom: 60px;
 
   &__top {
     display: flex;

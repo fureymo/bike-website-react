@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './fonts/fonts.scss';
+import './reset.scss';
 
 import Header from './sections/Header/Header';
 import LogoSection from './sections/LogoSection/LogoSection';

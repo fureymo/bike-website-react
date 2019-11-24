@@ -5,38 +5,56 @@ import './FeaturedProductsSection.scss';
 function FeaturedProductsSection() {
     return (
         <div className="FeaturedProductsSection">
-            <div>
-                <h3>Featured products</h3>
-                <ul className="FeaturedProductsSection__categories">
-                    <li>On-Road</li>
-                    <li>X-Road</li>
-                    <li>Off-Road</li>
-                    <li>BMX</li>
+            <div className="FeaturedProductsSection__top-group">
+                <h3 className="FeaturedProductsSection__header">Featured products</h3>
+                <ul>
+                    <li className="FeaturedProductsSection__category">On-Road</li>
+                    <li className="FeaturedProductsSection__category">X-Road</li>
+                    <li className="FeaturedProductsSection__category">Off-Road</li>
+                    <li className="FeaturedProductsSection__category">BMX</li>
                 </ul>
             </div>
-            <ul>
-                <li>
-                    <img />
-                    <div>Propel Advanced SLO</div>
-                    <div>$900.00</div>
+            <ul className="FeaturedProductsSection__products">
+                <li className="FeaturedProductsSection__product-block">
+                    <div className="FeaturedProductsSection__product-content">
+                        <div className="FeaturedProductsSection__product-controls">
+                            <div className="FeaturedProductsSection__product-control-mask"></div>
+                            <button className="FeaturedProductsSection__product-button">Add to cart</button>
+                            <button className="FeaturedProductsSection__product-button">Quick view</button>
+                        </div>
+                    </div>
+                    <div className="FeaturedProductsSection__product-name">Propel Advanced SLO</div>
+                    <div className="FeaturedProductsSection__product-price">$900.00</div>
                 </li>
-                <li>
-                    <img />
-                    <div>Defy Advanced SL</div>
-                    <div>$1,770.00</div>
+                <li className="FeaturedProductsSection__product-block">
+                    <div className="FeaturedProductsSection__product-content">
+                        <div className="FeaturedProductsSection__product-controls">
+                            <div className="FeaturedProductsSection__product-control-mask"></div>
+                            <button className="FeaturedProductsSection__product-button">Add to cart</button>
+                            <button className="FeaturedProductsSection__product-button">Quick view</button>
+                        </div>
+                    </div>
+                    <div className="FeaturedProductsSection__product-name">Defy Advanced SL</div>
+                    <div className="FeaturedProductsSection__product-price">$1,770.00</div>
                 </li>
-                <li>
-                    <img />
-                    <div>Fast Road CO Max</div>
-                    <div>$900.00</div>
+                <li className="FeaturedProductsSection__product-block">
+                    <div className="FeaturedProductsSection__product-content">
+                        <div className="FeaturedProductsSection__product-controls">
+                            <div className="FeaturedProductsSection__product-control-mask"></div>
+                            <button className="FeaturedProductsSection__product-button">Add to cart</button>
+                            <button className="FeaturedProductsSection__product-button">Quick view</button>
+                        </div>
+                    </div>
+                    <div className="FeaturedProductsSection__product-name">Fast Road CO Max</div>
+                    <div className="FeaturedProductsSection__product-price">$900.00</div>
                 </li>
             </ul>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
+            <ul className="FeaturedProductsSection__pager">
+                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_1"></li>
+                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_2"></li>
+                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_3"></li>
+                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_4"></li>
+                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_5"></li>
             </ul>
         </div>
     );

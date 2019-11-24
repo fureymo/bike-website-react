@@ -9,7 +9,8 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 57px ;
-  padding: 0 180px;
+
+  @include section-horizontal-padding;
 
   &__logo {
     font-family: $LatoBlackFont;
