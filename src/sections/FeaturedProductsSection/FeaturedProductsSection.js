@@ -18,7 +18,7 @@ function FeaturedProductsSection() {
                 <li className="FeaturedProductsSection__product-block">
                     <div className="FeaturedProductsSection__product-content">
                         <div className="FeaturedProductsSection__product-controls">
-                            <div className="FeaturedProductsSection__product-control-mask"></div>
+                            <div className="FeaturedProductsSection__product-control-mask" />
                             <button className="FeaturedProductsSection__product-button">Add to cart</button>
                             <button className="FeaturedProductsSection__product-button">Quick view</button>
                         </div>
@@ -29,7 +29,7 @@ function FeaturedProductsSection() {
                 <li className="FeaturedProductsSection__product-block">
                     <div className="FeaturedProductsSection__product-content">
                         <div className="FeaturedProductsSection__product-controls">
-                            <div className="FeaturedProductsSection__product-control-mask"></div>
+                            <div className="FeaturedProductsSection__product-control-mask" />
                             <button className="FeaturedProductsSection__product-button">Add to cart</button>
                             <button className="FeaturedProductsSection__product-button">Quick view</button>
                         </div>
@@ -40,7 +40,7 @@ function FeaturedProductsSection() {
                 <li className="FeaturedProductsSection__product-block">
                     <div className="FeaturedProductsSection__product-content">
                         <div className="FeaturedProductsSection__product-controls">
-                            <div className="FeaturedProductsSection__product-control-mask"></div>
+                            <div className="FeaturedProductsSection__product-control-mask" />
                             <button className="FeaturedProductsSection__product-button">Add to cart</button>
                             <button className="FeaturedProductsSection__product-button">Quick view</button>
                         </div>
@@ -50,11 +50,11 @@ function FeaturedProductsSection() {
                 </li>
             </ul>
             <ul className="FeaturedProductsSection__pager">
-                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_1"></li>
-                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_2"></li>
-                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_3"></li>
-                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_4"></li>
-                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_5"></li>
+                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_1" />
+                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_2" />
+                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_3" />
+                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_4" />
+                <li className="FeaturedProductsSection__pager-button FeaturedProductsSection__pager-button_5" />
             </ul>
         </div>
     );
