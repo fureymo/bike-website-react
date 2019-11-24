@@ -16,7 +16,11 @@ function LogoSection() {
                         <option className="LogoSection__category-item">Categfory 2</option>
                     </select>
                    <form>
-                       <input type="search" placeholder="Search for product" name="search"  className="LogoSection__search">
+                       <input
+                           type="search"
+                           placeholder="Search for product"
+                           name="search"
+                           className="LogoSection__search">
                        </input>
                    </form>
                 </div>

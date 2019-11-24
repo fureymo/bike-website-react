@@ -13,7 +13,9 @@ function Header() {
                            <option>EUR</option>
                            <option>RUB</option>
                        </select>
-                       <div><i className="fas fa-angle-down"></i><i className="fab fa-stumbleupon"></i></div>
+                       <div>
+                           <i className="fas fa-angle-down"></i>
+                       </div>
                    </li>
                    <li className="Header__left-params-item">
                        <select className="Header__select-style">
