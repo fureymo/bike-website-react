@@ -37,9 +37,13 @@ function LogoSection() {
                         <a href="#" className="Page-nav__nav-item"><li>contact</li></a>
                     </ul>
                     <ul className="Basket-section">
-                        <li className="Basket-section__favorites">heart</li>
-                        <li className="Basket-section__basket">basket</li>
-                        <li className="Basket-section__cart">cart</li>
+                        <li className="Basket-section__favorites">
+                            <i className="far fa-heart"></i>
+                        </li>
+                        <li className="Basket-section__basket">
+                            <i className="fas fa-shopping-bag"></i>
+                        </li>
+                        <li className="Basket-section__cart">Cart:$199.00</li>
                     </ul>
                 </div>
             </div>

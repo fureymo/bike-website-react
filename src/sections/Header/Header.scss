@@ -31,9 +31,11 @@
   }
 
   &__left-params-item {
+    position: relative;
     padding: 0 16px;
     border-right: 1px solid #e0e0e0;
-    font-family: $LatoLightFont;
+    font-family: $LatoRegularFont;
+    font-weight: lighter;
     font-size: 14px;
     line-height: 21px;
     color: #212121;
@@ -47,11 +49,25 @@
     &_noborder {
       border-right: none;
     }
+  }
 
-    &__icon-language {
-      font-size: 14px;
-      width: 20px;
-    }
+  &__icon-angle-value {
+    position: absolute;
+    font-size: 14px;
+    left: 38px;
+    top: -1px;
+    background-color: white;
+    pointer-events: none;
+  }
+
+  &__icon-angle-language {
+    position: absolute;
+    font-size: 14px;
+    left: 74px;
+    top: -1px;
+    background-color: white;
+    pointer-events: none;
+
   }
 
   &__nav {
@@ -66,7 +82,8 @@
     padding: 0 18px;
     text-decoration: none;
     border-right: 1px solid #e0e0e0;
-    font-family: $LatoLightFont;
+    font-family: $LatoRegularFont;
+    font-weight: lighter;
     font-size: 14px;
     line-height: 21px;
     color: #212121;

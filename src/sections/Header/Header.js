@@ -13,8 +13,8 @@ function Header() {
                            <option>EUR</option>
                            <option>RUB</option>
                        </select>
-                       <div>
-                           <i className="fas fa-angle-down"></i>
+                       <div className="Header__icon-angle-value">
+                           <i className="fas fa-angle-down"/>
                        </div>
                    </li>
                    <li className="Header__left-params-item">
@@ -23,7 +23,9 @@ function Header() {
                            <option>Russian</option>
                            <option>Spanish</option>
                        </select>
-                       <div className="Header__icon-language"><i className="fas fa-angle-down"></i></div>
+                       <div className="Header__icon-angle-language">
+                           <i className="fas fa-angle-down"/>
+                       </div>
                    </li>
                    <li className="Header__left-params-item Header__left-params-item_noborder">Call us: (012) 3456 7890</li>
                 </ul>
