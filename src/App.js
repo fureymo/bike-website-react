@@ -6,6 +6,7 @@ import './reset.scss';
 import Header from './sections/Header/Header';
 import LogoSection from './sections/LogoSection/LogoSection';
 import FeaturedProductsSection from './sections/FeaturedProductsSection/FeaturedProductsSection';
+import SlideSection from './sections/SlideSection/SlideSection';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <LogoSection/>
       <FeaturedProductsSection/>
+      <SlideSection/>
     </div>
   );
 }

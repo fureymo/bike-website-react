@@ -1,0 +1,36 @@
+@import '../../variables.scss';
+
+.SlideSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 164px 30px 142px 30px;
+  background-color: #999999;
+
+  &__arrow-border {
+    border: 2px solid white;
+    padding: 10px 16px;
+  }
+
+  &__arrow {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: $LatoRegularFont;
+  }
+
+  &__middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  &__decription {
+    font-family: $LatoRegularFont;
+    font-style: italic;
+    font-size: 27px;
+    line-height: 70px;
+    color: #ffffff;
+  }
+}
