@@ -6,9 +6,9 @@ function LogoSection() {
     return (
         <header className="Header-section">
             <div className="LogoSection">
-                <div className="LogoSection__logo">
+                <h2 className="LogoSection__logo">
                     bike sport
-                </div>
+                </h2>
                 <div className="LogoSection__right-params">
                     <select className="LogoSection__category">
                         <option className="LogoSection__category-item">All Category</option>

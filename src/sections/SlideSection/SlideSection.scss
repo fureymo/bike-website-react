@@ -23,7 +23,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
 
+  &__subtitle {
+    font-family: $LoveLoBlackFont;
+    font-size: 100px;
+    line-height: 70px;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 15px;
   }
 
   &__decription {
