@@ -9,7 +9,7 @@ function SlideSection() {
                 <div className="SlideSection__arrow-border">&lt;</div>
             </a>
             <div className="SlideSection__middle-section">
-                <h1 className="SlideSection__subtitle">the bicycle</h1>
+                <h1 className="SlideSection__subtitle">t<span>h</span>e b<span>i</span>c<span>y</span>c<span>l</span>e</h1>
                 <div className="SlideSection__decription">Lorem Ipsum is simply dummy text of the printing</div>
                 <form>
                     <button>shop now</button>

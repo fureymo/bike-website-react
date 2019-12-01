@@ -38,6 +38,7 @@ function LogoSection() {
                     </ul>
                     <ul className="Basket-section">
                         <li className="Basket-section__favorites">
+                            <div className="Basket-section__favorites-counter">0</div>
                             <i className="far fa-heart"></i>
                         </li>
                         <li className="Basket-section__basket">
