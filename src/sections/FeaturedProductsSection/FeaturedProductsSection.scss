@@ -4,6 +4,7 @@
 .FeaturedProductsSection {
 
   padding-top: 100px;
+  padding-bottom: 40px;
 
   @include section-horizontal-padding;
 
@@ -24,6 +25,15 @@
     display: inline-block;
     position: relative;
     padding-right: 40px;
+    text-decoration: none;
+    font-family: $LatoLightFont;
+    font-size: 19px;
+    line-height: 21px;
+    color: #212121;
+
+    &:hover, &:active {
+      color: #fd4339;
+    }
 
     &:after {
       content: '';
