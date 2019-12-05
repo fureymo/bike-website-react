@@ -6,7 +6,9 @@ import './reset.scss';
 import Header from './sections/Header/Header';
 import LogoSection from './sections/LogoSection/LogoSection';
 import SlideSection from './sections/SlideSection/SlideSection';
+import AdvantagesSection from './sections/AdvantagesSection/AdvantagesSection';
 import FeaturedProductsSection from './sections/FeaturedProductsSection/FeaturedProductsSection';
+
 
 
 function App() {
@@ -14,7 +16,8 @@ function App() {
     <div className="App">
       <Header/>
       <LogoSection/>
-        <SlideSection/>
+      <SlideSection/>
+      <AdvantagesSection/>
       <FeaturedProductsSection/>
     </div>
   );
