@@ -1,12 +1,17 @@
 @import '../../variables.scss';
 
-.AdvantagesSection {
+.AdvantagesSection-container {
   @include section-horizontal-padding;
 
+
+}
+
+.AdvantagesSection {
   padding-top: 40px;
   padding-bottom: 40px;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
 
   &__item {
     display: flex;
@@ -25,6 +30,16 @@
     font-family: $LatoBlackFont;
     font-size: 16px;
     line-height: 21px;
-    font-weight: 150;
+    color: #212121;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+  }
+
+  &__description {
+    font-family: $LatoRegularFont;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #212121;
   }
 }
