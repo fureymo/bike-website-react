@@ -19,7 +19,9 @@ function AdvantagesSection() {
                     <div className="AdvantagesSection__description">Prescription Experts</div>
                 </div>
             </div>
-
+            <div className="AdvantagesSection__divider">
+                <div className="AdvantagesSection__divider-shadow" />
+            </div>
         </section>
     );
 };

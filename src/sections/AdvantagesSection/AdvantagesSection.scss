@@ -2,16 +2,12 @@
 
 .AdvantagesSection-container {
   @include section-horizontal-padding;
-
-
 }
 
 .AdvantagesSection {
   padding-top: 40px;
-  padding-bottom: 40px;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e0e0e0;
 
   &__item {
     display: flex;
@@ -41,5 +37,18 @@
     font-weight: lighter;
     font-size: 16px;
     color: #212121;
+  }
+
+  &__divider {
+    margin-top: 40px;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__divider-shadow {
+    height: 20px;
+    width: 386px;
+    background-image: url('/images/shadow.png');
   }
 }
