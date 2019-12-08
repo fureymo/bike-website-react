@@ -6,7 +6,7 @@
   padding-top: 100px;
   padding-bottom: 40px;
 
-  @include section-horizontal-padding;
+  @include section-horizontal-padding-small;
 
   &__top-group {
     display: flex;

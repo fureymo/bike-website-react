@@ -10,7 +10,7 @@
   justify-content: space-between;
   margin-bottom: 57px ;
 
-  @include section-horizontal-padding;
+  @include section-horizontal-padding-small;
 
   &__logo {
     font-family: $LatoBlackFont;
@@ -64,7 +64,7 @@
   justify-content: space-between;
   padding-top: 21px;
   padding-bottom: 21px;
-  @include section-horizontal-padding;
+  @include section-horizontal-padding-small;
 }
 
 .Page-nav {
