@@ -9,3 +9,8 @@ $LoveLoBlackFont: Lovelo Black, Arial, Helvetica, sans-serif;
   padding-left: 78px;
   padding-right: 78px;
 }
+
+@mixin section-horizontal-padding-big {
+  padding-left: 170px;
+  padding-right: 170px;
+}

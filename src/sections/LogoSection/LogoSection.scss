@@ -1,9 +1,6 @@
 
 @import '../../variables.scss';
 
-.Header-section {
-
-}
 
 .LogoSection {
   display: flex;
@@ -11,6 +8,11 @@
   margin-bottom: 57px ;
 
   @include section-horizontal-padding-small;
+
+  @media (min-width: 1920px) {
+    @include section-horizontal-padding-big;
+  }
+
 
   &__logo {
     font-family: $LatoBlackFont;
@@ -65,6 +67,10 @@
   padding-top: 21px;
   padding-bottom: 21px;
   @include section-horizontal-padding-small;
+
+  @media (min-width: 1920px) {
+    @include section-horizontal-padding-big;
+  }
 }
 
 .Page-nav {

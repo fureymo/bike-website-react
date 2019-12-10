@@ -2,7 +2,14 @@
 @import '../../variables.scss';
 
 .Header {
-  @include section-horizontal-padding-small;
+
+    @include section-horizontal-padding-small;
+
+
+  @media (min-width: 1920px) {
+    @include section-horizontal-padding-big;
+  }
+
 
   padding-top: 20px;
   padding-bottom: 60px;

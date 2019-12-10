@@ -1,7 +1,13 @@
 @import '../../variables.scss';
 
 .AdvantagesSection-container {
-  @include section-horizontal-padding-small;
+    @include section-horizontal-padding-small;
+
+
+  @media (min-width: 1920px) {
+    @include section-horizontal-padding-big;
+  }
+
 }
 
 .AdvantagesSection {
