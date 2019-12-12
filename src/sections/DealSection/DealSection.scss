@@ -1,2 +1,64 @@
 @import '../../variables.scss';
 
+.DealSection {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 100px;
+  padding-right: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+
+  @media (min-width: 1920px) {
+    padding-left: 200px;
+    padding-right: 170px;
+  }
+
+  &__image {
+    width: 515px;
+    height: 346px;
+    background-color: #434343;
+  }
+
+  &__timer-list {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  &__timer-item {
+    margin-right: 28px;
+    width: 69px;
+    height: 69px;
+    border: 1px solid #212121;
+    border-radius: 9px 9px 9px 0;
+    ox-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__timer-number {
+    font-family: $LatoBlackFont;
+    font-size: 25px;
+    line-height: 21px;
+    color: #212121;
+  }
+
+  &__timer_period {
+    font-family: $LatoRegularFont;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 21px;
+    color: #212121;
+  }
+
+  &__subtitle {
+    font-family: $LatoRegularFont;
+    font-size: 25px;
+    line-height: 21px;
+    color: #212121;
+  }
+}
