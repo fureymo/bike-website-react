@@ -55,10 +55,76 @@
     color: #212121;
   }
 
+  &__name-section {
+    padding-top: 28px;
+    padding-bottom: 34px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
   &__subtitle {
     font-family: $LatoRegularFont;
     font-size: 25px;
     line-height: 21px;
     color: #212121;
+    margin: 0;
+  }
+
+  &__stars {
+    margin-top: 13px;
+  }
+
+  &__star-item {
+    display: inline-block;
+    margin-right: 3px;
+    font-size: 20px;
+  }
+
+  &__cost {
+    font-family: $LatoBlackFont;
+    font-size: 30px;
+    line-height: 21px;
+    color: #f44336;
+    margin-top: 30px;
+  }
+
+  &__color {
+    display: inline-block;
+  }
+
+  &__pager {
+    display: inline-block;
+  }
+
+  &__pager-button {
+    display: inline-block;
+    border-radius: 7px;
+    border-width: 7px;
+    margin: 5px;
+    border-style: solid;
+    cursor: pointer;
+  }
+
+  &__pager-button_1 {
+    color: #2196f3;
+  }
+
+  &__pager-button_2 {
+    color: #ff9800;
+  }
+
+  &__pager-button_3 {
+    color: #673ab7;
+  }
+
+  &__pager-button_4 {
+    color: #607d8b;
+  }
+
+  &__pager-button_5 {
+    color: #ff5722;
+  }
+
+  &__in-stock {
+    display: inline-block;
   }
 }

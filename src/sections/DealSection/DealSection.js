@@ -25,23 +25,39 @@ function DealSection() {
                         <div className="DealSection__timer-period">sec</div>
                     </li>
                 </ul>
-                <h5 className="DealSection__subtitle">Propel Advanced Pro Frameset</h5>
-                <ul className="DealSection__stars">
-                    <li className="DealSection__star-item"></li>
-                    <li className="DealSection__star-item"></li>
-                    <li className="DealSection__star-item"></li>
-                    <li className="DealSection__star-item"></li>
-                    <li className="DealSection__star-item"></li>
-                </ul>
-                <div>Color
-                    <ul>
-                        <li className="DealSection"/>
-                        <li className="DealSection"/>
-                        <li className="DealSection"/>
-                        <li className="DealSection"/>
-                        <li className="DealSection"/>
+                <div className="DealSection__name-section">
+                    <h5 className="DealSection__subtitle">Propel Advanced Pro Frameset</h5>
+                    <ul className="DealSection__stars">
+                        <li className="DealSection__star-item">
+                            <i className="fas fa-star"/>
+                        </li>
+                        <li className="DealSection__star-item">
+                            <i className="fas fa-star"/>
+                        </li>
+                        <li className="DealSection__star-item">
+                            <i className="fas fa-star"/>
+                        </li>
+                        <li className="DealSection__star-item">
+                            <i className="fas fa-star"/>
+                        </li>
+                        <li className="DealSection__star-item">
+                            <i className="fas fa-star-half-alt"/>
+                        </li>
                     </ul>
+                    <div className="DealSection__cost">$2,290.00</div>
                 </div>
+                <div>
+                    <div className="DealSection__color">Color</div>
+                    <ul className="DealSection__pager">
+                        <li className="DealSection__pager-button DealSection__pager-button_1"/>
+                        <li className="DealSection__pager-button DealSection__pager-button_2"/>
+                        <li className="DealSection__pager-button DealSection__pager-button_3"/>
+                        <li className="DealSection__pager-button DealSection__pager-button_4"/>
+                        <li className="DealSection__pager-button DealSection__pager-button_5"/>
+                    </ul>
+                    <div className="DealSection__in-stock">In stock: 10</div>
+                </div>
+
                 <div>add to cart</div>
             </div>
         </section>
