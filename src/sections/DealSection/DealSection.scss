@@ -87,12 +87,23 @@
     margin-top: 30px;
   }
 
+  &__color-stock {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
   &__color {
-    display: inline-block;
+    margin-right: 26px;
+    font-family: $LatoRegularFont;
+    font-weight: lighter;
+    color: #212121;
+    font-size: 19px;
   }
 
   &__pager {
-    display: inline-block;
+    margin-right: 93px;
   }
 
   &__pager-button {
@@ -125,6 +136,44 @@
   }
 
   &__in-stock {
-    display: inline-block;
+    font-family: $LatoRegularFont;
+    font-weight: lighter;
+    color: #212121;
+    font-size: 19px;
   }
+
+  &__button-block {
+    padding: 30px 0 50px 0;
+  }
+
+  &__button {
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    padding: 19px 24px 19px 52px;
+    font-family: $LatoRegularFont;
+    font-weight: lighter;
+    color: #000000;
+    font-size: 16px;
+
+    &:hover, &:active .DealSection__button-bag .DealSection__button-heart{
+      background-color: #f44336;
+      color: #ffffff;
+    }
+  }
+  &__button_cart {
+    margin-right: 24px;
+  }
+
+
+
+  &__button-bag {
+    position: absolute;
+  }
+
+  &__button-heart {
+    position: absolute;
+  }
+
 }

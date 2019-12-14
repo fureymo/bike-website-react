@@ -46,8 +46,8 @@ function DealSection() {
                     </ul>
                     <div className="DealSection__cost">$2,290.00</div>
                 </div>
-                <div>
-                    <div className="DealSection__color">Color</div>
+                <div className="DealSection__color-stock">
+                    <div className="DealSection__color">Color:</div>
                     <ul className="DealSection__pager">
                         <li className="DealSection__pager-button DealSection__pager-button_1"/>
                         <li className="DealSection__pager-button DealSection__pager-button_2"/>
@@ -57,8 +57,16 @@ function DealSection() {
                     </ul>
                     <div className="DealSection__in-stock">In stock: 10</div>
                 </div>
-
-                <div>add to cart</div>
+                <div className="DealSection__button-block">
+                    <button type="button" className="DealSection__button DealSection__button_cart">add to cart</button>
+                    <span className="DealSection__button-bag">
+                        <i className="fas fa-shopping-bag"/>
+                    </span>
+                    <button type="button" className="DealSection__button DealSection__button_wishlist">add to wishlist!</button>
+                    <span className="DealSection__button-heart">
+                        <i className="far fa-heart"/>
+                    </span>
+                </div>
             </div>
         </section>
     );
