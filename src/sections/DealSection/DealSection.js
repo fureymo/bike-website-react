@@ -58,14 +58,17 @@ function DealSection() {
                     <div className="DealSection__in-stock">In stock: 10</div>
                 </div>
                 <div className="DealSection__button-block">
-                    <button type="button" className="DealSection__button DealSection__button_cart">add to cart</button>
-                    <span className="DealSection__button-bag">
+                    <button type="button" className="DealSection__button DealSection__button_cart">
+                           <span className="DealSection__button-symbol">
                         <i className="fas fa-shopping-bag"/>
                     </span>
-                    <button type="button" className="DealSection__button DealSection__button_wishlist">add to wishlist!</button>
-                    <span className="DealSection__button-heart">
+                        add to cart
+                    </button>
+                    <button type="button" className="DealSection__button DealSection__button_wishlist">
+                        <span className="DealSection__button-symbol">
                         <i className="far fa-heart"/>
                     </span>
+                        add to wishlist</button>
                 </div>
             </div>
         </section>
