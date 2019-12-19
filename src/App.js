@@ -9,6 +9,7 @@ import SlideSection from './sections/SlideSection/SlideSection';
 import AdvantagesSection from './sections/AdvantagesSection/AdvantagesSection';
 import FeaturedProductsSection from './sections/FeaturedProductsSection/FeaturedProductsSection';
 import DealSection from './sections/DealSection/DealSection';
+import WidgetProductsSection from './sections/WidgetProductsSection/WidgetProductsSection';
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <AdvantagesSection/>
       <FeaturedProductsSection/>
       <DealSection/>
+      <WidgetProductsSection/>
     </div>
   );
 }

@@ -1,0 +1,100 @@
+@import '../../variables.scss';
+
+.WidgetProductsSection {
+
+  padding-top: 100px;
+  padding-bottom: 70px;
+
+  @include section-horizontal-padding-small;
+
+  @media (min-width: 1920px) {
+    @include section-horizontal-padding-big;
+  }
+
+  &__top-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+  }
+
+  &__header {
+    font-family: "Lovelo Black";
+    font-size: 30px;
+    margin: 0;
+  }
+
+  &__category {
+    display: inline-block;
+    position: relative;
+    padding-right: 40px;
+    text-decoration: none;
+    font-family: $LatoLightFont;
+    font-size: 19px;
+    line-height: 21px;
+    color: #212121;
+
+    &:hover, &:active {
+      color: #fd4339;
+    }
+
+    &:after {
+      content: '';
+      border-radius: 2px;
+      border-style: solid;
+      border-color: #bdbdbd;
+      position: absolute;
+      right: 20px;
+      bottom: 7px;
+    }
+  }
+
+  &__category:last-child {
+    padding-right: 0;
+
+    &:after {
+      content: none;
+    }
+  }
+
+  &__products {
+    display: flex;
+    justify-content: space-between;
+
+    &_second-line {
+      margin-top: 70px;
+    }
+  }
+
+
+
+  &__product-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__product-content {
+    width: 270px;
+    height: 237px;
+    background-color: #434343;
+  }
+
+  &__product-name {
+    font-family: $LatoRegularFont;
+    font-size: 19px;
+    font-weight: lighter;
+    padding-top: 9px;
+    line-height: 21px;
+    color: #212121;
+  }
+
+  &__product-price {
+    font-family: $LatoRegularFont;
+    font-size: 19px;
+    font-weight: lighter;
+    padding-top: 21px;
+    line-height: 21px;
+    color: #f44336;
+  }
+}

@@ -8,12 +8,9 @@
 
     @include section-horizontal-padding-small;
 
-
   @media (min-width: 1920px) {
     @include section-horizontal-padding-big;
   }
-
-
 
   &__top-group {
     display: flex;
