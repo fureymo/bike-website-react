@@ -10,6 +10,7 @@ import AdvantagesSection from './sections/AdvantagesSection/AdvantagesSection';
 import FeaturedProductsSection from './sections/FeaturedProductsSection/FeaturedProductsSection';
 import DealSection from './sections/DealSection/DealSection';
 import WidgetProductsSection from './sections/WidgetProductsSection/WidgetProductsSection';
+import GetintouchSection from './sections/GetintouchSection/GetintouchSection';
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <FeaturedProductsSection/>
       <DealSection/>
       <WidgetProductsSection/>
+      <GetintouchSection/>
     </div>
   );
 }

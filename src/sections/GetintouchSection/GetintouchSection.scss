@@ -1,0 +1,48 @@
+@import '../../variables.scss';
+
+.GetintouchSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #bdbdbd linear-gradient(#bababa, #8e8e8e);
+
+  padding-top: 130px;
+  padding-bottom: 90px;
+
+  @include section-horizontal-padding-small;
+
+  @media (min-width: 1920px) {
+    @include section-horizontal-padding-big;
+  }
+
+  &__subtitle {
+    font-family: $LatoBlackFont;
+    font-size: 30px;
+    line-height: 21px;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  &__description {
+    font-family: $LatoLightFont;
+    font-size: 23px;
+    line-height: 21px;
+    color: #ffffff;
+    margin-bottom: 51px;
+  }
+
+  &__button {
+    padding: 16px 24px;
+    color: #ffffff;
+    font-family: $LatoBoldFont;
+    font-size: 15px;
+    background-color: #f44336;
+    border: none;
+    text-transform: uppercase;
+    line-height: 21px;
+  }
+}
