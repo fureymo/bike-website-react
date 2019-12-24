@@ -1,0 +1,103 @@
+@import '../../variables.scss';
+
+.NewsSection {
+  padding-top: 95px;
+  padding-bottom: 100px;
+  @include section-horizontal-padding-small;
+
+
+  @media (min-width: 1920px) {
+    @include section-horizontal-padding-big;
+  }
+
+  &__title {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 40px 0 0;
+    font-family: $LoveLoBlackFont;
+    font-size: 28px;
+    color: #212121;
+  }
+
+  &__description {
+    display: inline-block;
+    font-family: $LatoLightFont;
+    font-size: 19px;
+    color: #212121;
+  }
+
+  &__news-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+
+  &__news-item {
+    display: flex;
+
+    &_first-news {
+      margin-right: 40px;
+    }
+  }
+
+  &__image {
+    width: 270px;
+    height: 270px;
+    background-color: #e0e0e0;
+    margin-right: 30px;
+  }
+
+  &__news-information {
+    width: 264px;
+  }
+
+  &__subtitle {
+    font-family: $LatoBlackFont;
+    font-size: 19px;
+    line-height: 25px;
+    color: #212121;
+    letter-spacing: 1.05px;
+    margin: 0;
+  }
+
+  &__date {
+    margin-top: 15px;
+    font-family: $LatoLightFont;
+    font-size: 14px;
+    line-height: 25px;
+    color: #9e9e9e;
+  }
+
+  &__news-text {
+    margin-top: 15px;
+    font-family: $LatoLightFont;
+    font-size: 16px;
+    line-height: 25px;
+    color: #212121;
+  }
+
+  &__continue {
+    margin-top: 35px;
+  }
+
+  &__continue-link {
+    text-decoration: none;
+    font-family: $LatoLightFont;
+    font-size: 16px;
+    line-height: 25px;
+    color: #f44336;
+  }
+
+  &__divider {
+    margin-top: 100px;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__divider-shadow {
+    height: 20px;
+    width: 386px;
+    background-image: url('/images/shadow.png');
+  }
+}

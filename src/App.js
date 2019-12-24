@@ -11,6 +11,7 @@ import FeaturedProductsSection from './sections/FeaturedProductsSection/Featured
 import DealSection from './sections/DealSection/DealSection';
 import WidgetProductsSection from './sections/WidgetProductsSection/WidgetProductsSection';
 import GetintouchSection from './sections/GetintouchSection/GetintouchSection';
+import NewsSection from './sections/NewsSection/NewsSection';
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <DealSection/>
       <WidgetProductsSection/>
       <GetintouchSection/>
+      <NewsSection/>
     </div>
   );
 }
