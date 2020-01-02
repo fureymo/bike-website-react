@@ -47,15 +47,17 @@ function DealSection() {
                     <div className="DealSection__cost">$2,290.00</div>
                 </div>
                 <div className="DealSection__color-stock">
-                    <div className="DealSection__color">Color:</div>
-                    <ul className="DealSection__pager">
-                        <li className="DealSection__pager-button DealSection__pager-button_1"/>
-                        <li className="DealSection__pager-button DealSection__pager-button_2"/>
-                        <li className="DealSection__pager-button DealSection__pager-button_3"/>
-                        <li className="DealSection__pager-button DealSection__pager-button_4"/>
-                        <li className="DealSection__pager-button DealSection__pager-button_5"/>
-                    </ul>
-                    <div className="DealSection__in-stock">In stock: 10</div>
+                    <div>
+                        <div className="DealSection__color">Color:</div>
+                        <ul className="DealSection__pager">
+                            <li className="DealSection__pager-button DealSection__pager-button_1"/>
+                            <li className="DealSection__pager-button DealSection__pager-button_2"/>
+                            <li className="DealSection__pager-button DealSection__pager-button_3"/>
+                            <li className="DealSection__pager-button DealSection__pager-button_4"/>
+                            <li className="DealSection__pager-button DealSection__pager-button_5"/>
+                        </ul>
+                    </div>
+                    <div className="DealSection__in-stock">In stock: <span>10</span></div>
                 </div>
                 <div className="DealSection__button-block">
                     <button type="button" className="DealSection__button DealSection__button_cart">
