@@ -24,7 +24,7 @@ function FeaturedProductsSection() {
                         </div>
                     </div>
                     <div className="FeaturedProductsSection__product-name">Propel Advanced SLO</div>
-                    <div className="FeaturedProductsSection__product-price">$900.00</div>
+                    <div className="FeaturedProductsSection__product-price">$<span>900.00</span></div>
                 </li>
                 <li className="FeaturedProductsSection__product-block">
                     <div className="FeaturedProductsSection__product-content">
@@ -35,7 +35,7 @@ function FeaturedProductsSection() {
                         </div>
                     </div>
                     <div className="FeaturedProductsSection__product-name">Defy Advanced SL</div>
-                    <div className="FeaturedProductsSection__product-price">$1,770.00</div>
+                    <div className="FeaturedProductsSection__product-price">$<span>1,770.00</span></div>
                 </li>
                 <li className="FeaturedProductsSection__product-block">
                     <div className="FeaturedProductsSection__product-content">
@@ -46,7 +46,7 @@ function FeaturedProductsSection() {
                         </div>
                     </div>
                     <div className="FeaturedProductsSection__product-name">Fast Road CO Max</div>
-                    <div className="FeaturedProductsSection__product-price">$900.00</div>
+                    <div className="FeaturedProductsSection__product-price">$<span>900.00</span></div>
                 </li>
             </ul>
             <ul className="FeaturedProductsSection__pager">

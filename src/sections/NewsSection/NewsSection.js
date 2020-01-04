@@ -13,7 +13,7 @@ function NewsSection() {
                 <div className="NewsSection__news-item NewsSection__news-item_first-news">
                     <div className="NewsSection__image"/>
                     <div className="NewsSection__news-information">
-                        <h5 className="NewsSection__subtitle">Gulf Today Report On KGS Carnival – 2015</h5>
+                        <a href="#" className="NewsSection__subtitle-link"><h5 className="NewsSection__subtitle">Gulf Today Report On KGS Carnival – 2015</h5></a>
                         <div className="NewsSection__date">Posted at March 19. 2015</div>
                         <div className="NewsSection__news-text">
                             Excellence is never an accident. It is always the result
@@ -26,7 +26,7 @@ function NewsSection() {
                 <div className="NewsSection__news-item ">
                     <div className="NewsSection__image"/>
                     <div className="NewsSection__news-information">
-                        <h5 className="NewsSection__subtitle">Excepteur sint ipsum dolor sit amet conse ctetur</h5>
+                        <a href="#" className="NewsSection__subtitle-link"><h5 className="NewsSection__subtitle">Excepteur sint ipsum dolor sit amet conse ctetur</h5></a>
                         <div className="NewsSection__date">Posted at March 19. 2015</div>
                         <div className="NewsSection__news-text">
                             Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt .

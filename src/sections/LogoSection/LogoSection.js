@@ -45,7 +45,7 @@ function LogoSection() {
                             <div className="Basket-section__favorites-counter">2</div>
                             <i className="fas fa-shopping-bag"/>
                         </li>
-                        <li className="Basket-section__cart">Cart:$199.00</li>
+                        <li className="Basket-section__cart">Cart:$<span>199.00</span></li>
                     </ul>
                 </div>
             </div>

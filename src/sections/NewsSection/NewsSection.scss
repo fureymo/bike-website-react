@@ -51,6 +51,10 @@
     width: 264px;
   }
 
+  &__subtitle-link {
+    text-decoration: none;
+  }
+
   &__subtitle {
     font-family: $LatoBlackFont;
     font-size: 19px;

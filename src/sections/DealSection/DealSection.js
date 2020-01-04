@@ -44,10 +44,10 @@ function DealSection() {
                             <i className="fas fa-star-half-alt"/>
                         </li>
                     </ul>
-                    <div className="DealSection__cost">$2,290.00</div>
+                    <div className="DealSection__cost">$<span>2,290.00</span></div>
                 </div>
                 <div className="DealSection__color-stock">
-                    <div>
+                    <div className="DealSection__color-pager">
                         <div className="DealSection__color">Color:</div>
                         <ul className="DealSection__pager">
                             <li className="DealSection__pager-button DealSection__pager-button_1"/>
