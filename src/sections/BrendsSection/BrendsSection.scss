@@ -1,0 +1,45 @@
+@import '../../variables.scss';
+
+.BrendsSection {
+  @include section-horizontal-padding-small;
+  padding-top: 60px;
+  padding-bottom: 37px;
+  display: flex;
+  justify-content: space-between;
+
+
+  @media (min-width: 1920px) {
+    padding-left: 200px;
+    padding-right: 170px;
+
+    &__brend {
+      width: 160px;
+      height: 100px;
+    }
+
+    &__brend1 {
+      background-image: url('/images/brend1.png');
+    }
+
+    &__brend2 {
+      background-image: url('/images/brend2.png');
+    }
+
+    &__brend3 {
+      background-image: url('/images/brend3.png');
+    }
+
+    &__brend4 {
+      background-image: url('/images/brend4.png');
+    }
+
+    &__brend5 {
+      background-image: url('/images/brend5.png');
+    }
+
+    &__brend6 {
+      background-image: url('/images/brend6.png');
+    }
+  }
+
+}
