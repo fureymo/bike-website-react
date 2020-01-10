@@ -13,6 +13,7 @@ import WidgetProductsSection from './sections/WidgetProductsSection/WidgetProduc
 import GetintouchSection from './sections/GetintouchSection/GetintouchSection';
 import NewsSection from './sections/NewsSection/NewsSection';
 import BrendsSection from './sections/BrendsSection/BrendsSection';
+import ContactLinkSection from './sections/ContactLinkSection/ContactLinkSection';
 
 
 
@@ -29,6 +30,7 @@ function App() {
       <GetintouchSection/>
       <NewsSection/>
       <BrendsSection/>
+      <ContactLinkSection/>
     </div>
   );
 }
