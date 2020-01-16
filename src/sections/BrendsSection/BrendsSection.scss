@@ -9,9 +9,8 @@
 
 
   @media (min-width: 1920px) {
-    padding-left: 200px;
-    padding-right: 170px;
-
+    @include section-horizontal-padding-big;
+  }
     &__brend {
       width: 160px;
       height: 100px;
@@ -40,6 +39,6 @@
     &__brend6 {
       background-image: url('/images/brend6.png');
     }
-  }
+
 
 }

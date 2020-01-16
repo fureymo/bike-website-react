@@ -6,27 +6,30 @@ function ContactLinkSection() {
     return (
         <section className="ContactLinkSection">
             <div className="Contact-info-block">
-                <div className="Contact-info-block__contact">
-                    <h5 className="Contact-info-block__header">contact info</h5>
-                    <div className="Contact-info-block__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
-                    <div className="Contact-info-block">
-                        <div className="Contact-info-block">Address:</div>
-                        <div className="Contact-info-block">123 Sky Tower address name, Los Algeles,USA, Country, 01234</div>
-                    </div>
-                    <div className="Contact-info-block__phone-block">
-                        <div className="Contact-info-block__phone">Phone:</div>
-                        <div className="Contact-info-block__phone-number">(012)345 6789</div>
-                    </div>
-                    <div className="Contact-info-block__email-block">
-                        <div className="Contact-info-block__email">Email:</div>
-                        <div className="Contact-info-block__email-address">info@templaza.com</div>
-                    </div>
+                <h5 className="Contact-info-block__header">contact info</h5>
+                <div className="Contact-info-block__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+                <div className="Contact-info-block__contact-block">
+                    <div className="Contact-info-block__label">Address:</div>
+                    <div className="Contact-info-block__contact-info">123 Sky Tower address name, Los Algeles, USA, Country, 01234</div>
                 </div>
+                <div className="Contact-info-block__contact-block">
+                    <div className="Contact-info-block__label">Phone:</div>
+                    <div className="Contact-info-block__contact-info">(012)345 6789</div>
+                </div>
+                <div className="Contact-info-block__contact-block">
+                    <div className="Contact-info-block__label">Email:</div>
+                    <div className="Contact-info-block__contact-info">info@templaza.com</div>
+                </div>
+
                 <div  className="Contact-info-block__subscribtion">
                     <form>
-                        <input/>
+                        <input
+                            placeholder="Enter your email..."
+                            type="email"
+                            className="Contact-info-block__subscribtion-input"
+                        />
                     </form>
-                    <button>Subscribe</button>
+                    <button className="Contact-info-block__subscribtion-button">Subscribe</button>
                 </div>
                 <ul className="Contact-info-block__social">
                     <a><li>
