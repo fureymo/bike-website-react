@@ -32,23 +32,23 @@ function ContactLinkSection() {
                     <button className="Contact-info-block__subscribtion-button">Subscribe</button>
                 </div>
                 <ul className="Contact-info-block__social">
-                    <a><li>
-                        <i className="fab fa-facebook-f"></i>
+                    <a href="#"><li className="Contact-info-block__social-icon">
+                        <i className="fab fa-facebook-f"/>
                     </li></a>
-                    <a><li>
-                        <i className="fab fa-twitter"></i>
+                    <a href="#"><li className="Contact-info-block__social-icon">
+                        <i className="fab fa-twitter"/>
                     </li></a>
-                    <a><li>
-                        <i className="fab fa-google-plus-g"></i>
+                    <a href="#"><li className="Contact-info-block__social-icon">
+                        <i className="fab fa-google-plus-g"/>
                     </li></a>
-                    <a><li>
-                        <i className="fab fa-tumblr"></i>
+                    <a href="#"><li className="Contact-info-block__social-icon">
+                        <i className="fab fa-tumblr"/>
                     </li></a>
-                    <a><li>
-                        <i className="fab fa-flickr"></i>
+                    <a href="#"><li className="Contact-info-block__social-icon">
+                        <i className="fab fa-flickr"/>
                     </li></a>
-                    <a><li>
-                        <i className="fab fa-pinterest-square"></i>
+                    <a href="#"><li className="Contact-info-block__social-icon">
+                        <i className="fab fa-pinterest-square"/>
                     </li></a>
 
                 </ul>
@@ -57,43 +57,43 @@ function ContactLinkSection() {
                 <div className="Contact-link-block__feedback-block">
                     <h5 className="Contact-link-block__header-top">what clients say?</h5>
                     <div className="Contact-link-block__feedback-content">
-                        <div className="Contact-link-block__avatar">img</div>
-                        <div className="Contact-link-block__description_block">
+                        <div className="Contact-link-block__avatar"/>
+                        <div className="Contact-link-block__description-block">
                             <div className="Contact-link-block__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua.</div>
                             <div className="Contact-link-block__name">Kathy Young</div>
                         </div>
                     </div>
                 </div>
-               <ul className="Contact-link-block">
+               <ul className="Contact-link-block__main-list">
                    <li className="Contact-link-block__column">
-                       <ul className="Contact-link-block__how-to-buy-col">
+                       <ul>
                            <h5 className="Contact-link-block__header">how to buy</h5>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Contact Us</li></a>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Returns</li></a>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Site Map</li></a>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Brands</li></a>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Gift Vouchers</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Contact Us</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Returns</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Site Map</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Brands</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Gift Vouchers</li></a>
                        </ul>
                    </li>
                    <li className="Contact-link-block__column">
-                       <ul className="Contact-link-block__my-account-col">
+                       <ul>
                            <h5 className="Contact-link-block__header">my account</h5>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">My Account</li></a>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Order History</li></a>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Wish List</li></a>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Newsletter</li></a>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Specials</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">My Account</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Order History</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Wish List</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Newsletter</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Specials</li></a>
                        </ul>
                    </li>
                    <li className="Contact-link-block__column">
-                       <ul className="Contact-link-block__information-col">
+                       <ul>
                            <h5 className="Contact-link-block__header">information</h5>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">About Us</li></a>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Contact Us</li></a>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Term & Conditions</li></a>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Privacy Policy</li></a>
-                           <a className="Contact-link-block-link"><li className="Contact-link-block__list-item">Orders and Returns</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">About Us</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Contact Us</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Term & Conditions</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Privacy Policy</li></a>
+                           <a href="#" className="Contact-link-block__link"><li className="Contact-link-block__list-item">Orders and Returns</li></a>
                        </ul>
                    </li>
 
