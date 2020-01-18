@@ -14,6 +14,7 @@ import GetintouchSection from './sections/GetintouchSection/GetintouchSection';
 import NewsSection from './sections/NewsSection/NewsSection';
 import BrendsSection from './sections/BrendsSection/BrendsSection';
 import ContactLinkSection from './sections/ContactLinkSection/ContactLinkSection';
+import Footer from './sections/Footer/Footer';
 
 
 
@@ -31,6 +32,7 @@ function App() {
       <NewsSection/>
       <BrendsSection/>
       <ContactLinkSection/>
+      <Footer/>
     </div>
   );
 }
