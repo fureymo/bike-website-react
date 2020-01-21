@@ -18,7 +18,7 @@
     font-family: $LatoBlackFont;
     font-size: 40px;
     line-height: 21px;
-    color: #212121;
+    color: $MainBlackColor;
     text-transform: uppercase;
     letter-spacing: 3.2px;
     margin: 0;
@@ -30,35 +30,26 @@
 
   &__category{
     margin-right: 11px;
-    font-family: $LatoRegularFont;
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 21px;
-    color: #212121;
+    @include small-text;
+    color: $MainBlackColor;
     width: 150px;
 
   }
 
   &__category-item {
-    font-family: $LatoRegularFont;
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 21px;
-    color: #212121;
+    @include small-text;
+    color: $MainBlackColor;
   }
 
   &__search {
-    font-family: $LatoRegularFont;
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 21px;
+    @include small-text;
     color: #bdbdbd;
     width: 380px
   }
 }
 
 .Page-nav-basket-container {
-  background-color: #212121;
+  background-color: $MainBlackColor;
 }
 
 .Page-nav-basket {
@@ -84,11 +75,8 @@
     text-decoration: none;
     margin-right: 45px;
     text-transform: uppercase;
-    font-family: $LatoRegularFont;
-    font-weight: lighter;
-    font-size: 16px;
-    line-height: 21px;
-    color: #ffffff;
+    @include contact-link-text;
+    color: $WhiteColor;
 
     &_onsale {
       position: relative;
@@ -99,7 +87,7 @@
         font-family: $LatoRegularFont;
         font-size: 11px;
         line-height: 21px;
-        color: #ffffff;
+        color: $WhiteColor;
         background-color: #fd4339;
         padding: 1px 8px;
         top: -32px;
@@ -130,7 +118,7 @@
       font-family: $LatoRegularFont;
       font-size: 11px;
       line-height: 21px;
-      color: #ffffff;
+      color: $WhiteColor;
       background-color: #00bcd4;
       padding: 1px 8px;
       top: -32px;
@@ -164,7 +152,7 @@
 
   &__favorites {
     position: relative;
-    color: #ffffff;
+    color: $WhiteColor;
     margin-right: 34px;
     font-size: 17px;
   }
@@ -186,15 +174,13 @@
 
   &__basket {
     position: relative;
-    color: #ffffff;
+    color: $WhiteColor;
     margin-right: 11px;
     font-size: 17px;
   }
 
   &__cart {
-    color: #ffffff;
-    font-size: 14px;
-    font-family: $LatoRegularFont;
-    font-weight: lighter;
+    color: $WhiteColor;
+    @include small-text;
   }
 }

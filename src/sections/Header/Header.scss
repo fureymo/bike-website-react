@@ -29,11 +29,8 @@
 
 
   &__select-style {
-    font-family: $LatoRegularFont;
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 21px;
-    color: #212121;
+  @include small-text;
+    color: $MainBlackColor;
     border: none;
   }
 
@@ -41,11 +38,8 @@
     position: relative;
     padding: 0 16px;
     border-right: 1px solid #e0e0e0;
-    font-family: $LatoRegularFont;
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 21px;
-    color: #212121;
+    @include small-text;
+    color: $MainBlackColor;
 
 
 
@@ -89,11 +83,8 @@
     padding: 0 18px;
     text-decoration: none;
     border-right: 1px solid #e0e0e0;
-    font-family: $LatoRegularFont;
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 21px;
-    color: #212121;
+    @include small-text;
+    color: $MainBlackColor;
 
     &_noborder {
       border: none;

@@ -54,7 +54,7 @@ function ContactLinkSection() {
                 </ul>
             </div>
             <div className="Contact-link-block">
-                <div className="Contact-link-block__feedback-block">
+                <div>
                     <h5 className="Contact-link-block__header-top">what clients say?</h5>
                     <div className="Contact-link-block__feedback-content">
                         <div className="Contact-link-block__avatar"/>

@@ -56,7 +56,7 @@
   &__subscribtion-button {
     padding: 10px 20px;
     @include contact-link-text;
-    color: #ffffff;
+    color: $WhiteColor;
     background-color: $MainBlackColor;
   }
 

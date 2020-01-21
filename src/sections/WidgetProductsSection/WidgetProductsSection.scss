@@ -29,10 +29,7 @@
     position: relative;
     padding-right: 40px;
     text-decoration: none;
-    font-family: $LatoLightFont;
-    font-size: 19px;
-    line-height: 21px;
-    color: #212121;
+    @include product-name-text;
 
     &:hover, &:active {
       color: #fd4339;
@@ -85,20 +82,13 @@
   }
 
   &__product-name {
-    font-family: $LatoRegularFont;
-    font-size: 19px;
-    font-weight: lighter;
+    @include product-name-text;
     padding-top: 9px;
-    line-height: 21px;
-    color: #212121;
   }
 
   &__product-price {
-    font-family: $LatoRegularFont;
-    font-size: 19px;
-    font-weight: lighter;
+    @include product-name-text;
     padding-top: 21px;
-    line-height: 21px;
-    color: #f44336;
+    color: $RedTextColor;
   }
 }

@@ -32,17 +32,14 @@
     font-family: $LatoBlackFont;
     font-size: 16px;
     line-height: 21px;
-    color: #212121;
+    color: $MainBlackColor;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 14px;
   }
 
   &__description {
-    font-family: $LatoRegularFont;
-    font-weight: lighter;
-    font-size: 16px;
-    color: #212121;
+    @include contact-link-text;
   }
 
   &__divider {

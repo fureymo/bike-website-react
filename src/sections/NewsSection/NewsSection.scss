@@ -15,14 +15,12 @@
     margin: 0 40px 0 0;
     font-family: $LoveLoBlackFont;
     font-size: 28px;
-    color: #212121;
+    color: $MainBlackColor;
   }
 
   &__description {
     display: inline-block;
-    font-family: $LatoLightFont;
-    font-size: 19px;
-    color: #212121;
+    @include product-name-text;
   }
 
   &__news-block {
@@ -58,25 +56,21 @@
     font-family: $LatoBlackFont;
     font-size: 19px;
     line-height: 25px;
-    color: #212121;
+    color: $MainBlackColor;
     letter-spacing: 1.05px;
     margin: 0;
   }
 
   &__date {
     margin-top: 15px;
-    font-family: $LatoLightFont;
-    font-size: 14px;
+    @include small-text;
     line-height: 25px;
     color: #9e9e9e;
   }
 
   &__news-text {
     margin-top: 15px;
-    font-family: $LatoLightFont;
-    font-size: 16px;
-    line-height: 25px;
-    color: #212121;
+   @include contact-link-text;
   }
 
   &__continue {
@@ -85,10 +79,8 @@
 
   &__continue-link {
     text-decoration: none;
-    font-family: $LatoLightFont;
-    font-size: 16px;
-    line-height: 25px;
-    color: #f44336;
+    @include contact-link-text;
+    color: $RedTextColor;
   }
 
   &__divider {

@@ -20,7 +20,7 @@
     font-family: $LatoBlackFont;
     font-size: 30px;
     line-height: 21px;
-    color: #ffffff;
+    color: $WhiteColor;
     margin: 0;
     margin-bottom: 35px;
     text-transform: uppercase;
@@ -31,16 +31,16 @@
     font-family: $LatoLightFont;
     font-size: 23px;
     line-height: 21px;
-    color: #ffffff;
+    color: $WhiteColor;
     margin-bottom: 51px;
   }
 
   &__button {
     padding: 16px 24px;
-    color: #ffffff;
+    color: $WhiteColor;
     font-family: $LatoBoldFont;
     font-size: 15px;
-    background-color: #f44336;
+    background-color: $RedTextColor;
     border: none;
     text-transform: uppercase;
     line-height: 21px;
