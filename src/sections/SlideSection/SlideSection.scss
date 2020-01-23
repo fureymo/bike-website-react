@@ -39,12 +39,13 @@
   }
 
   &__description {
-    font-family: $LatoRegularFont;
-    font-style: italic;
+    font-family: $LatoItalicFont;
+    //font-style: italic;
     font-size: 27px;
     line-height: 70px;
     color: $WhiteColor;
     margin-bottom: 40px;
+    letter-spacing: 1.8px;
   }
   
   &__button {
@@ -56,6 +57,7 @@
     border: none;
     text-transform: uppercase;
     line-height: 21px;
+    cursor: pointer;
 
 
   }
