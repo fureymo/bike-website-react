@@ -2,14 +2,11 @@
 @import '../../variables.scss';
 
 .Header {
-
-    @include section-horizontal-padding-small;
-
+  @include section-horizontal-padding-small;
 
   @media (min-width: 1920px) {
     @include section-horizontal-padding-big;
   }
-
 
   padding-top: 20px;
   padding-bottom: 60px;
@@ -20,16 +17,12 @@
   }
 
   &__left-params {
-    padding: 0;
     display: flex;
     flex-direction: row;
-    list-style: none;
-    margin: 0;
   }
 
-
   &__select-style {
-  @include small-text;
+    @include small-text;
     color: $MainBlackColor;
     border: none;
   }
@@ -37,11 +30,9 @@
   &__left-params-item {
     position: relative;
     padding: 0 16px;
-    border-right: 1px solid #e0e0e0;
+    border-right: $BorderThin;
     @include small-text;
     color: $MainBlackColor;
-
-
 
     &_value {
       padding: 0 16px 0 0;
@@ -52,39 +43,33 @@
     }
   }
 
-  &__icon-angle-value {
+  &__icon-angle {
     display: flex;
     position: absolute;
-    font-size: 14px;
-    left: 38px;
-    top: 4px;
-    background-color: white;
-    pointer-events: none;
-  }
-
-  &__icon-angle-language {
-    display: flex;
-    position: absolute;
-    font-size: 14px;
-    left: 72px;
     top: 4px;
     background-color: white;
     pointer-events: none;
 
+    &__icon-angle-value {
+      font-size: 14px;
+      left: 38px;
+    }
+
+    &__icon-angle-language {
+      font-size: 14px;
+      left: 72px;
+    }
   }
 
   &__nav {
-    padding: 0;
     display: flex;
     flex-direction: row;
-    list-style: none;
-    margin: 0;
   }
 
   &__nav-item {
     padding: 0 18px;
     text-decoration: none;
-    border-right: 1px solid #e0e0e0;
+    border-right: $BorderThin;
     @include small-text;
     color: $MainBlackColor;
 
@@ -92,6 +77,4 @@
       border: none;
     }
   }
-
-
 }

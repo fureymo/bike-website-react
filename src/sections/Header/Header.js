@@ -13,7 +13,7 @@ function Header() {
                            <option>EUR</option>
                            <option>RUB</option>
                        </select>
-                       <div className="Header__icon-angle-value">
+                       <div className="Header__icon-angle Header__icon-angle_value">
                            <i className="fas fa-angle-down"/>
                        </div>
                    </li>
@@ -23,7 +23,7 @@ function Header() {
                            <option>Russian</option>
                            <option>Spanish</option>
                        </select>
-                       <div className="Header__icon-angle-language">
+                       <div className="Header__icon-angle Header__icon-angle_language">
                            <i className="fas fa-angle-down"/>
                        </div>
                    </li>
