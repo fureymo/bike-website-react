@@ -19,7 +19,7 @@
   }
 
   &__header {
-    font-family: "Lovelo Black";
+    font-family: $LoveLoBlackFont;
     font-size: 30px;
     margin: 0;
   }
@@ -78,7 +78,7 @@
   &__product-content {
     width: 270px;
     height: 237px;
-    background-color: #434343;
+    background-color: $ProductDarkGrayColor;
   }
 
   &__product-name {

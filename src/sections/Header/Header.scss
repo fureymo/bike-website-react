@@ -48,15 +48,14 @@
     position: absolute;
     top: 4px;
     background-color: white;
+    font-size: 14px;
     pointer-events: none;
 
     &_value {
-      font-size: 14px;
       left: 38px;
     }
 
     &_language {
-      font-size: 14px;
       left: 72px;
     }
   }

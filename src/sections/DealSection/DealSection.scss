@@ -18,13 +18,13 @@
   &__image {
     width: 515px;
     height: 346px;
-    background-color: #434343;
+    background-color: $ProductDarkGrayColor;
   }
 
   &__timer-list {
     display: flex;
     padding-bottom: 30px;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: $BorderThin;
   }
 
   &__timer-item {
@@ -33,7 +33,7 @@
     height: 69px;
     border: 1px solid $MainBlackColor;
     border-radius: 9px 9px 9px 0;
-    ox-sizing: border-box;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +54,7 @@
   &__name-section {
     padding-top: 28px;
     padding-bottom: 34px;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: $BorderThin;
   }
 
   &__subtitle {
@@ -87,7 +87,7 @@
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: $BorderThin;
   }
 
   &__color-pager {
@@ -158,16 +158,8 @@
     margin-right: 24px;
   }
 
-
-
   &__button-symbol {
     position: absolute;
     left: 25px;
   }
-
-  &__button-heart {
-    position: absolute;
-    left: 25px;
-  }
-
 }

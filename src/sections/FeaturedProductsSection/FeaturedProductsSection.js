@@ -8,10 +8,10 @@ function FeaturedProductsSection() {
             <div className="FeaturedProductsSection__top-group">
                 <h3 className="FeaturedProductsSection__header">Featured products</h3>
                 <ul>
-                    <a href="#" className="FeaturedProductsSection__category"><li >On-Road</li></a>
-                    <a href="#" className="FeaturedProductsSection__category"><li >X-Road</li></a>
-                    <a href="#" className="FeaturedProductsSection__category"><li >Off-Road</li></a>
-                    <a href="#" className="FeaturedProductsSection__category"><li >BMX</li></a>
+                    <a href="#" className="FeaturedProductsSection__category"><li>On-Road</li></a>
+                    <a href="#" className="FeaturedProductsSection__category"><li>X-Road</li></a>
+                    <a href="#" className="FeaturedProductsSection__category"><li>Off-Road</li></a>
+                    <a href="#" className="FeaturedProductsSection__category"><li>BMX</li></a>
                 </ul>
             </div>
             <ul className="FeaturedProductsSection__products">

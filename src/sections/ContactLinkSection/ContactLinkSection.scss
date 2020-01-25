@@ -71,7 +71,7 @@
   }
 
   &__line {
-    border-right: 1px solid #e0e0e0;
+    border-right: $BorderThin;
     margin-right: 50px;
     margin-left: 50px;
 
@@ -83,7 +83,7 @@
 
   &__top {
     padding-bottom: 50px;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: $BorderThin;
   }
 
   &__header-top {

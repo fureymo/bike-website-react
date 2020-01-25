@@ -63,14 +63,15 @@ function DealSection() {
                     <button type="button" className="DealSection__button DealSection__button_cart">
                            <span className="DealSection__button-symbol">
                         <i className="fas fa-shopping-bag"/>
-                    </span>
+                        </span>
                         add to cart
                     </button>
-                    <button type="button" className="DealSection__button DealSection__button_wishlist">
+                    <button type="button" className="DealSection__button">
                         <span className="DealSection__button-symbol">
                         <i className="far fa-heart"/>
-                    </span>
-                        add to wishlist</button>
+                        </span>
+                        add to wishlist
+                    </button>
                 </div>
             </div>
         </section>
