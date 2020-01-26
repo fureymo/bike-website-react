@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './NewsSection.scss';
+import ShadowDivider from '../../shared/ShadowDivider/ShadowDivider';
 
 function NewsSection() {
     return (
@@ -37,12 +38,12 @@ function NewsSection() {
 
                 </div>
             </div>
-            <div className="NewsSection__divider">
-                <div className="NewsSection__divider-shadow" />
+            <div className="NewsSection__divider-container">
+                <ShadowDivider />
             </div>
 
         </section>
     );
-};
+}
 
 export default NewsSection;

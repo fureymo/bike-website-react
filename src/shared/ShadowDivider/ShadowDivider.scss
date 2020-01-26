@@ -1,0 +1,18 @@
+
+@import '../../variables.scss';
+
+.ShadowDivider {
+  border-top: $BorderThin;
+
+  // @todo a kludge to make border exactly 1px
+  border-top-width: thin;
+
+  display: flex;
+  justify-content: center;
+
+  &__shadow {
+    height: 20px;
+    width: 386px;
+    background-image: url('/images/shadow.png');
+  }
+}

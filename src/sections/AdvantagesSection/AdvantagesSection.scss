@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 74px;
+    padding: 0 74px;
     border-right: $BorderThin;
 
     &:last-child {
@@ -42,16 +42,7 @@
     @include contact-link-text;
   }
 
-  &__divider {
+  &__divider-container {
     margin-top: 40px;
-    border-top: $BorderThin;
-    display: flex;
-    justify-content: center;
-  }
-
-  &__divider-shadow {
-    height: 20px;
-    width: 386px;
-    background-image: url('/images/shadow.png');
   }
 }

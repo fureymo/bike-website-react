@@ -83,16 +83,7 @@
     color: $RedTextColor;
   }
 
-  &__divider {
+  &__divider-container {
     margin-top: 100px;
-    border-top: $BorderThin;
-    display: flex;
-    justify-content: center;
-  }
-
-  &__divider-shadow {
-    height: 20px;
-    width: 386px;
-    background-image: url('/images/shadow.png');
   }
 }
