@@ -74,16 +74,13 @@
   }
 
   &__product-name {
-    @include small-text;
+    @include product-name-text;
     padding-top: 9px;
-    line-height: 14pt;
-    color: $MainBlackColor;
   }
 
   &__product-price {
-    @include small-text;
+    @include product-name-text;
     padding-top: 21px;
-    line-height: 14pt;
     color: $RedTextColor;
   }
 
